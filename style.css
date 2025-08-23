@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: flex;
+    cursor: pointer;
+    box-shadow :0 0 30px;
+}
+.stats-container:hover {
+    
+    box-shadow :lightblue;
 }
 
 .stats-card {
@@ -55,11 +62,12 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+ 
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+   box-shadow: 0 0 30px lightblue; 
 }
 
 #button-container {
