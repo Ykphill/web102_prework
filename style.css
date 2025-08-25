@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #fcfcfc;
 }
 
 #tentacles {
@@ -23,7 +23,8 @@ body {
     display: flex;
     align-items: flex;
     cursor: pointer;
-    box-shadow :0 0 30px;
+    background-color: lightblue;
+  
 }
 .stats-container:hover {
     
@@ -62,6 +63,7 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    box-shadow: 0 0 30px gray;
  
 }
 
